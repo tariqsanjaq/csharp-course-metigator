@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="Task01-ProjectSetupVariables/Task01-ProjectSetupVariables.csproj" />
+  <Project Path="Task02-BooleanLogicArrays/Task02-BooleanLogicArrays.csproj" />
+</Solution>
