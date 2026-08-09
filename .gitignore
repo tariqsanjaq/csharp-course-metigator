@@ -1,0 +1,22 @@
+# Build results
+bin/
+obj/
+
+# Visual Studio files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Rider / VS Code (in case you switch editors later)
+.idea/
+.vscode/
+
+# NuGet
+*.nupkg
+packages/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
