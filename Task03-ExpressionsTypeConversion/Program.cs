@@ -61,30 +61,27 @@ class Program
         }
 
 
-
-        // 2
         Console.WriteLine("--------------------------------------------");
-        //boxing
+
+        // Boxing — value type -> object
         Stopwatch sw = Stopwatch.StartNew();
         for (int i = 0; i < 1000000; i++)
         {
             int unbox = 123;
             object obj = unbox;
         }
-        
         sw.Stop();
 
-        //unboxing 
+        // Unboxing — object -> value type (boxed once outside the loop so only the cast-back is timed)
+        object boxedValue = 23;
         Stopwatch sw2 = Stopwatch.StartNew();
-
-        for(int i = 0; i < 1000000; i++)
+        for (int i = 0; i < 1000000; i++)
         {
-            object box = 23;
-            int boxing = (int)box;
+            int unboxed = (int)boxedValue;
         }
-        
         sw2.Stop();
-        // dirict value type
+
+        // Direct value-type operation — no boxing involved, baseline for comparison
         Stopwatch stopwatch = Stopwatch.StartNew();
         for (int i = 0; i < 1000000; i++)
         {
@@ -92,9 +89,10 @@ class Program
             double df = (double)asd;
         }
         stopwatch.Stop();
-        // prefomance 
-        Console.WriteLine($"unboxing time :{sw}\nboxing time: {sw2}\ndirect value : {stopwatch}");
 
+        // Performance results
         Console.WriteLine($"Boxing time: {sw.ElapsedMilliseconds} ms");
+        Console.WriteLine($"Unboxing time: {sw2.ElapsedMilliseconds} ms");
+        Console.WriteLine($"Direct value-type time: {stopwatch.ElapsedMilliseconds} ms");
     }
 }
