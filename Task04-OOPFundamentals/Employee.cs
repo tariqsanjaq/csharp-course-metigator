@@ -5,6 +5,7 @@ public class Employee
     private string _email;
     private decimal _salary;
     private const decimal MaxSalary = 100000m;
+    private List<string> _skills = new List<string>();
 
     public int Id => _id;
 
@@ -52,6 +53,12 @@ public class Employee
         }
     }
 
+    public string this[int index]
+    {
+        get => _skills[index];
+        set => _skills[index] = value;
+    }
+
     public Employee(int id, string name, string email, decimal salary)
     {
         _id = id;      // assign directly — readonly field, constructor is the one place this is allowed
@@ -74,6 +81,11 @@ public class Employee
             $"email : {Email}\n" +
             $"salary : {Salary}";
     }
+
+    public void AddSkill(string skill)
+{
+    _skills.Add(skill);
+}
 
 
 }
