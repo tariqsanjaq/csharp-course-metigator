@@ -11,7 +11,7 @@ Each task is completed after watching its corresponding videos and lives in its 
 - [x] **Task 02** — Boolean Logic & Arrays (#004–#005)
 - [x] **Task 03** — Expressions & Type Conversion (#006–#007)
 - [x] **Task 04** — OOP Fundamentals (#008–#012)
-- [ ] **Task 05** — Delegates & Events (#013–#014)
+- [x] **Task 05** — Delegates & Events (#013–#014)
 - [ ] **Task 06** — Operator Overloading & Finalizer (#015–#016)
 - [ ] **Task 07** — Nested Types & Debugging (#017–#018)
 - [ ] **Task 08** — Struct & Enum (#019–#020)
