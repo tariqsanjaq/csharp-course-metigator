@@ -1,8 +1,8 @@
 <Solution>
-  <Project Path="C:/Users/Tariq/Desktop/csharp-course-metigator(Task)/Task01-ProjectSetupVariables/Task01-ProjectSetupVariables.csproj" />
-  <Project Path="C:/Users/Tariq/Desktop/csharp-course-metigator(Task)/Task02-BooleanLogicArrays/Task02-BooleanLogicArrays.csproj" />
-  <Project Path="C:/Users/Tariq/Desktop/csharp-course-metigator(Task)/Task03-ExpressionsTypeConversion/Task03-ExpressionsTypeConversion.csproj" Id="4a44878a-9d51-4633-a6f8-9c578708d93f" />
-  <Project Path="C:/Users/Tariq/Desktop/csharp-course-metigator(Task)/Task04-OOPFundamentals/Task04-OOPFundamentals.csproj" Id="763a597d-a796-4202-8123-a00cc6830e3c" />
+  <Project Path="Task01-ProjectSetupVariables/Task01-ProjectSetupVariables.csproj" />
+  <Project Path="Task02-BooleanLogicArrays/Task02-BooleanLogicArrays.csproj" />
+  <Project Path="Task03-ExpressionsTypeConversion/Task03-ExpressionsTypeConversion.csproj" Id="4a44878a-9d51-4633-a6f8-9c578708d93f" />
+  <Project Path="Task04-OOPFundamentals/Task04-OOPFundamentals.csproj" Id="763a597d-a796-4202-8123-a00cc6830e3c" />
   <Project Path="Task05-DelegatesEvents/Task05-DelegatesEvents.csproj" Id="44ea8a0d-602f-4302-b6d7-da828db43814" />
   <Project Path="Task06-OperatorOverloadingFinalizer/Task06-OperatorOverloadingFinalizer.csproj" Id="e811eb20-9d67-4565-8eb4-d510a603e3a7" />
   <Project Path="Task07-NestedTypesDebugging/Task07-NestedTypesDebugging.csproj" Id="697da657-7ccd-4285-a1f0-15e52656c85c" />

@@ -13,7 +13,7 @@ Each task is completed after watching its corresponding videos and lives in its 
 - [x] **Task 04** — OOP Fundamentals (#008–#012)
 - [x] **Task 05** — Delegates & Events (#013–#014)
 - [x] **Task 06** — Operator Overloading & Finalizer (#015–#016)
-- [ ] **Task 07** — Nested Types & Debugging (#017–#018)
+- [x] **Task 07** — Nested Types & Debugging (#017–#018)
 - [ ] **Task 08** — Struct & Enum (#019–#020)
 - [ ] **Task 09** — Inheritance & Interfaces (#021–#022)
 - [ ] **Task 10** — Generics & Generic Delegates (#023–#024)
