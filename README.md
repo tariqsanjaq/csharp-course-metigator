@@ -14,7 +14,7 @@ Each task is completed after watching its corresponding videos and lives in its 
 - [x] **Task 05** — Delegates & Events (#013–#014)
 - [x] **Task 06** — Operator Overloading & Finalizer (#015–#016)
 - [x] **Task 07** — Nested Types & Debugging (#017–#018)
-- [ ] **Task 08** — Struct & Enum (#019–#020)
+- [x] **Task 08** — Struct & Enum (#019–#020)
 - [ ] **Task 09** — Inheritance & Interfaces (#021–#022)
 - [ ] **Task 10** — Generics & Generic Delegates (#023–#024)
 - [ ] **Task 11** — Exception Handling (#025)
