@@ -7,4 +7,6 @@
   <Project Path="Task06-OperatorOverloadingFinalizer/Task06-OperatorOverloadingFinalizer.csproj" Id="e811eb20-9d67-4565-8eb4-d510a603e3a7" />
   <Project Path="Task07-NestedTypesDebugging/Task07-NestedTypesDebugging.csproj" Id="697da657-7ccd-4285-a1f0-15e52656c85c" />
   <Project Path="Task08-StructEnum/Task08-StructEnum.csproj" Id="b80670f3-ff60-4dd6-b8f1-4e02d9a78c0d" />
+  <Project Path="Task09-InheritanceInterfaces/Task09-InheritanceInterfaces.csproj" Id="6e7d0a68-3ca2-4dd1-ac99-1cabc373eafd" />
+  <Project Path="Task10-GenericsGenericDelegates/Task10-GenericsGenericDelegates.csproj" Id="fb2f8bfd-cd97-4f65-9e69-611d8bd558e2" />
 </Solution>
