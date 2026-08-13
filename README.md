@@ -19,7 +19,7 @@ Each task is completed after watching its corresponding videos and lives in its 
 - [x] **Task 10** — Generics & Generic Delegates (#023–#024)
 - [X] **Task 11** — Exception Handling (#025)
 - [x] **Task 12** — Enumerators & Iterators (#026)
-- [ ] **Task 13** — XML Documentation & Extension Methods (#027–#028)
+- [x] **Task 13** — XML Documentation & Extension Methods (#027–#028)
 - [ ] **Task 14** — Assemblies, Reflection & Attributes (#029–#031)
 - [ ] **Task 15** — Collections & Data Structures (#032–#034)
 - [ ] **Task 16** — Stream I/O & File Operations (#035)
