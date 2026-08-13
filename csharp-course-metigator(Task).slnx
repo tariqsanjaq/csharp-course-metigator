@@ -10,4 +10,5 @@
   <Project Path="Task09-InheritanceInterfaces/Task09-InheritanceInterfaces.csproj" Id="6e7d0a68-3ca2-4dd1-ac99-1cabc373eafd" />
   <Project Path="Task10-GenericsGenericDelegates/Task10-GenericsGenericDelegates.csproj" Id="fb2f8bfd-cd97-4f65-9e69-611d8bd558e2" />
   <Project Path="Task11-ExceptionHandling/Task11-ExceptionHandling.csproj" Id="6bf84c3a-0257-4532-81ae-90be2584ff99" />
+  <Project Path="Task12-EnumeratorsIterators/Task12-EnumeratorsIterators.csproj" Id="f8808005-dc22-4955-b2f7-e26083a93ab9" />
 </Solution>
