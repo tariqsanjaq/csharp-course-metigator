@@ -1,4 +1,9 @@
 <Solution>
+  <Folder Name="/Task14-AssembliesReflectionAttributes/">
+    <Project Path="Core/Core.csproj" Id="69b34e94-434c-4890-b564-cfb6230f67a5" />
+    <Project Path="Services/Services.csproj" Id="60b9a0b2-cfbc-4eb1-adff-9fdf92e18c28" />
+    <Project Path="Task14-AssembliesReflectionAttributes/App.csproj" Id="04a50fdd-22c6-490d-9819-a00a37c63fa7" />
+  </Folder>
   <Project Path="Task01-ProjectSetupVariables/Task01-ProjectSetupVariables.csproj" />
   <Project Path="Task02-BooleanLogicArrays/Task02-BooleanLogicArrays.csproj" />
   <Project Path="Task03-ExpressionsTypeConversion/Task03-ExpressionsTypeConversion.csproj" Id="4a44878a-9d51-4633-a6f8-9c578708d93f" />
