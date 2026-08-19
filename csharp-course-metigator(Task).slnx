@@ -18,4 +18,5 @@
 <Project Path="Task12-EnumeratorsIterators/Task12-EnumeratorsIterators.csproj" Id="b14748f2-b762-4bc4-ae50-d0ab8bc1f9b1" />
 <Project Path="Task13-XmlDocsExtensionMethods/Task13-XmlDocsExtensionMethods.csproj" Id="c9a43e3f-748e-413d-8a36-b0dddb7caf06" />
 <Project Path="Task15-CollectionsDataStructures/Task15-CollectionsDataStructures.csproj" Id="e2a8eeab-ba81-427d-9ca2-a2760555d07f" />
+<Project Path="Task16-StreamIOFileOperations/Task16-StreamIOFileOperations.csproj" Id="fbb660ba-a069-408b-b6a0-01cdd66ccb69" />
 </Solution>
