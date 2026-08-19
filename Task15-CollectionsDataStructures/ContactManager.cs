@@ -12,12 +12,17 @@ namespace Task15_CollectionsDataStructures
         private readonly List<Contact> _contacts = new();
         private readonly Dictionary<string, List<Contact>> _contactsByCity =
             new Dictionary<string, List<Contact>>(StringComparer.OrdinalIgnoreCase);
+        private readonly HashSet<string> _uniqueEmails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
 
+        private readonly LinkedList<Contact> _favorites = new LinkedList<Contact>();
 
-
-        public void Add(Contact contact)
+        public bool Add(Contact contact)
         {
             ArgumentNullException.ThrowIfNull(contact);
+            if (!_uniqueEmails.Add(contact.Email))
+            {
+                return false;
+            }
             _contacts.Add(contact);
             if (_contactsByCity.TryGetValue(contact.City, out List<Contact>? cityContacts))
             {
@@ -30,6 +35,7 @@ namespace Task15_CollectionsDataStructures
                 list.Add(contact);
             }
             RecordAction($"Added contact: {contact.Name}");
+            return true;
         }
 
         public bool Remove(int id)
@@ -57,6 +63,7 @@ namespace Task15_CollectionsDataStructures
                 if (cityContacts.Count == 0)
                     _contactsByCity.Remove(contact.City);
             }
+            _uniqueEmails.Remove(contact.Email);
             RecordAction($"Removed contact: {contact.Name}");
             return true;
         }
@@ -121,5 +128,37 @@ namespace Task15_CollectionsDataStructures
 
             return null;
         }
+
+        public bool IsEmailRegistered(string email) => _uniqueEmails.Contains(email);
+
+        public void AddFavoriteFirst(Contact contact)
+        {
+            ArgumentNullException.ThrowIfNull(contact);
+            _favorites.AddFirst(contact);
+        }
+        public void AddFavoriteLast(Contact contact)
+        {
+            ArgumentNullException.ThrowIfNull(contact);
+            _favorites.AddLast(contact);
+        }
+        public bool RemoveFavorite(int id)
+        {
+            LinkedListNode<Contact>? node = _favorites.First;
+
+            while (node != null)
+            {
+                if (node.Value.Id == id)
+                {
+                    _favorites.Remove(node);
+                    return true;
+                }
+
+                node = node.Next;
+            }
+            return false;
+        }
+
+        public LinkedList<Contact> GetFavorites() => _favorites;
+
     }
 }

@@ -30,5 +30,19 @@ namespace Task15_CollectionsDataStructures
             return $"id : {Id} , name : {Name} , email : {Email} , city : {City}";
         }
 
+        public override bool Equals(object? obj)
+        {
+            if (obj is Contact other)
+            {
+                return string.Equals(Email, other.Email, StringComparison.OrdinalIgnoreCase) ;
+            }
+            return false;
+        }
+
+        public override int GetHashCode()
+        {
+            return StringComparer.OrdinalIgnoreCase.GetHashCode(Email);
+        }
+
     }
 }
