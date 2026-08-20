@@ -2,22 +2,19 @@
 {
     internal class NoteRepository
     {
-        // a field for the root path
         private readonly string _repository;
-        // a method that builds /Notes/{year}/{month}/ and creates it,
         public NoteRepository(string year, string month)
         {
             _repository = Path.Combine(Directory.GetCurrentDirectory(), "Notes", year, month);
             Directory.CreateDirectory(_repository);
         }
-        // returning the full path so callers can use it
         public string GetPath()
         {
             return _repository;
         }
         public void Save(Note note)
         {
-            string filePath = Path.Combine(_repository, $"{note.Id}-{note.Title}.txt");
+            string filePath = BuildPath($"{note.Id}-{note.Title}"); 
             using (StreamWriter sw = new(filePath))
             {
                 sw.WriteLine(note.Id);
@@ -28,10 +25,10 @@
         }
         public string Read(string fileName)
         {
-            string filePath = Path.Combine(_repository, $"{fileName}.txt");
-            using (StreamReader sr = new StreamReader(filePath)) 
+            string filePath = BuildPath(fileName);
+            using (StreamReader sr = new StreamReader(filePath))
             {
-                
+
                 return sr.ReadToEnd();
             }
 
@@ -39,7 +36,7 @@
 
         public List<string> ReadLines(string fileName)
         {
-            string filePath = Path.Combine(_repository, $"{fileName}.txt");
+            string filePath = BuildPath(fileName);
             using (StreamReader sr = new StreamReader(filePath))
             {
                 string? line;
@@ -55,13 +52,38 @@
 
         public void Append(string fileName, string text)
         {
-            string filePath = Path.Combine(_repository, $"{fileName}.txt");
-            using (StreamWriter sw = new StreamWriter(filePath,true))
+            string filePath = BuildPath(fileName);
+            using (StreamWriter sw = new StreamWriter(filePath, true))
             {
                 sw.WriteLine(text);
             }
 
         }
-
+        public void Copy(string fileName, string destinationFolder)
+        {
+            string filePath = BuildPath(fileName);
+            string destination = Path.Combine(destinationFolder, $"{fileName}.txt");
+            Directory.CreateDirectory(destinationFolder);
+            File.Copy(filePath, destination,true);
+        }
+        public void Move(string fileName, string destinationFolder)
+        {
+            string filePath = BuildPath(fileName);
+            string destination = Path.Combine(destinationFolder, $"{fileName}.txt");
+            Directory.CreateDirectory(destinationFolder);
+            File.Move(filePath, destination,true);
+        }
+        public void ShowFileInfo(string fileName)
+        {
+            string filePath = BuildPath(fileName);
+            FileInfo info = new FileInfo(filePath);
+            Console.WriteLine($"Size: {info.Length} bytes");
+            Console.WriteLine($"Created: {info.CreationTime}");
+            Console.WriteLine($"Modified: {info.LastWriteTime}");
+        }
+        private string BuildPath(string fileName)
+        {
+            return Path.Combine(_repository, $"{fileName}.txt");
+        }
     }
 }

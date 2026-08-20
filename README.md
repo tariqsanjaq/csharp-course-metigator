@@ -22,7 +22,7 @@ Each task is completed after watching its corresponding videos and lives in its 
 - [x] **Task 13** — XML Documentation & Extension Methods (#027–#028)
 - [x] **Task 14** — Assemblies, Reflection & Attributes (#029–#031)
 - [x] **Task 15** — Collections & Data Structures (#032–#034)
-- [ ] **Task 16** — Stream I/O & File Operations (#035)
+- [x] **Task 16** — Stream I/O & File Operations (#035)
 - [ ] **Task 17** — NuGet Packages (#036)
 - [ ] **Task 18** — Threading & Async Programming (#037–#038)
 - [ ] **Task 19** — Serialization (#039)
