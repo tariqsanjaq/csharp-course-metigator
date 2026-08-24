@@ -15,8 +15,12 @@ obj/
 
 # NuGet
 *.nupkg
+!Task17-NuGetPackages/LocalFeed/*.nupkg
 packages/
 
 # OS-generated files
 .DS_Store
 Thumbs.db
+#claude
+CLAUDE.md
+.claude

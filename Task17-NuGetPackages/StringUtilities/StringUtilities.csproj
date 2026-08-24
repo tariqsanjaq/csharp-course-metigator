@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+	<PackageId>Tariq.StringUtilities</PackageId>
+	<PackageVersion>1.0.0</PackageVersion>
+	<Authors>Tariq_Sanjaq</Authors>
+	<Description>A small .NET library providing string extension methods for ToTitleCase, Truncate, IsValidEmail, ToSlug </Description>
+	<GenerateDocumentationFile>true</GenerateDocumentationFile>
+  </PropertyGroup>
+
+</Project>
