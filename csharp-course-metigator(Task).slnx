@@ -5,8 +5,8 @@
 <Project Path="Task14-AssembliesReflectionAttributes/Services/Services.csproj" Id="60b9a0b2-cfbc-4eb1-adff-9fdf92e18c28" />
 </Folder>
 <Folder Name="/Task17-NuGetPackages/">
-<Project Path="Task17-NuGetPackages/StringUtilities/StringUtilities.csproj" />
 <Project Path="Task17-NuGetPackages/ConsumerApp/ConsumerApp.csproj" />
+<Project Path="Task17-NuGetPackages/StringUtilities/StringUtilities.csproj" />
 </Folder>
 <Project Path="Task01-ProjectSetupVariables/Task01-ProjectSetupVariables.csproj" />
 <Project Path="Task02-BooleanLogicArrays/Task02-BooleanLogicArrays.csproj" />
@@ -23,4 +23,5 @@
 <Project Path="Task13-XmlDocsExtensionMethods/Task13-XmlDocsExtensionMethods.csproj" Id="c9a43e3f-748e-413d-8a36-b0dddb7caf06" />
 <Project Path="Task15-CollectionsDataStructures/Task15-CollectionsDataStructures.csproj" Id="e2a8eeab-ba81-427d-9ca2-a2760555d07f" />
 <Project Path="Task16-StreamIOFileOperations/Task16-StreamIOFileOperations.csproj" Id="fbb660ba-a069-408b-b6a0-01cdd66ccb69" />
+<Project Path="Task18-ThreadingAsync/Task18-ThreadingAsync.csproj" Id="400c473e-2c3c-471f-8e0c-3e24ca0eac0f" />
 </Solution>
