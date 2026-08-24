@@ -18,7 +18,7 @@
             using (StreamWriter sw = new(filePath))
             {
                 sw.WriteLine(note.Id);
-                sw.WriteLine(note.CreatedAt);
+                sw.WriteLine(note.CreatedAt.ToString("yyyy/MM/dd HH:mm"));
                 sw.WriteLine(note.Title);
                 sw.WriteLine(note.Content);
             }

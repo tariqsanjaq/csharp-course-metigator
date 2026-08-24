@@ -23,7 +23,7 @@ Each task is completed after watching its corresponding videos and lives in its 
 - [x] **Task 14** — Assemblies, Reflection & Attributes (#029–#031)
 - [x] **Task 15** — Collections & Data Structures (#032–#034)
 - [x] **Task 16** — Stream I/O & File Operations (#035)
-- [ ] **Task 17** — NuGet Packages (#036)
+- [x] **Task 17** — NuGet Packages (#036)
 - [ ] **Task 18** — Threading & Async Programming (#037–#038)
 - [ ] **Task 19** — Serialization (#039)
 - [ ] **Task 20** — Foreach/Yield, Records, Top-Level Statements & Null Handling (#040–#043)
