@@ -3,7 +3,7 @@ using Task18_ThreadingAsync;
 
 internal class Program
 {
-    private static void Main(string[] args)
+    private static async Task Main(string[] args)
     {
         FileDownloader fileDownloader = new FileDownloader();
         Stopwatch stopwatch = new Stopwatch();
@@ -13,5 +13,12 @@ internal class Program
 
         Console.WriteLine(stopwatch.Elapsed);
 
+        AsyncFileDownloader asyncFileDownloader = new AsyncFileDownloader();
+        Stopwatch stopwatch2 = new Stopwatch();
+        stopwatch2.Start();
+        await asyncFileDownloader.MultiFileDownloader();
+        stopwatch2.Stop();
+
+        Console.WriteLine(stopwatch2.Elapsed);
     }
 }
