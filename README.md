@@ -24,9 +24,9 @@ Each task is completed after watching its corresponding videos and lives in its 
 - [x] **Task 15** — Collections & Data Structures (#032–#034)
 - [x] **Task 16** — Stream I/O & File Operations (#035)
 - [x] **Task 17** — NuGet Packages (#036)
-- [ ] **Task 18** — Threading & Async Programming (#037–#038)
-- [ ] **Task 19** — Serialization (#039)
-- [ ] **Task 20** — Foreach/Yield, Records, Top-Level Statements & Null Handling (#040–#043)
+- [x] **Task 18** — Threading & Async Programming (#037–#038)
+- [x] **Task 19** — Serialization (#039)
+- [x] **Task 20** — Foreach/Yield, Records, Top-Level Statements & Null Handling (#040–#043)
 - [ ] **Task 21** — Strings, StringBuilder & Tuples (#044–#046)
 - [ ] **Capstone** — Library Management System
 

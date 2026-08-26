@@ -24,4 +24,7 @@
 <Project Path="Task15-CollectionsDataStructures/Task15-CollectionsDataStructures.csproj" Id="e2a8eeab-ba81-427d-9ca2-a2760555d07f" />
 <Project Path="Task16-StreamIOFileOperations/Task16-StreamIOFileOperations.csproj" Id="fbb660ba-a069-408b-b6a0-01cdd66ccb69" />
 <Project Path="Task18-ThreadingAsync/Task18-ThreadingAsync.csproj" Id="400c473e-2c3c-471f-8e0c-3e24ca0eac0f" />
+<Project Path="Task19-Serialization/Task19-Serialization.csproj"  />
+<Project Path="Task20-YieldRecordsTopLevelNullHandling/Task20-YieldRecordsTopLevelNullHandling.csproj"  />
+
 </Solution>
