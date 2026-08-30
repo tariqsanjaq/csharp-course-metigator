@@ -28,7 +28,7 @@ Each task is completed after watching its corresponding videos and lives in its 
 - [x] **Task 19** — Serialization (#039)
 - [x] **Task 20** — Foreach/Yield, Records, Top-Level Statements & Null Handling (#040–#043)
 - [x] **Task 21** — Strings, StringBuilder & Tuples (#044–#046)
-- [ ] **Capstone** — Library Management System
+- [x] **Capstone** — Library Management System
 
 ## Structure
 
