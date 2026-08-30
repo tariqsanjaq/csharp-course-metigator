@@ -15,14 +15,19 @@ public class Librarian : Person
     {
         StaffId = staffId;
     }
-
     /// <summary>Adds a book to the given library's catalog.</summary>
     /// <param name="library">The library to add the book to.</param>
     /// <param name="book">The book to add.</param>
-    public void AddBook(Library library, Book book) { }
+    public void AddBook(Library library, Book book)
+    {
+        library.AddBook(book);
+    }
 
     /// <summary>Registers a member with the given library.</summary>
     /// <param name="library">The library to register the member with.</param>
     /// <param name="member">The member to register.</param>
-    public void RegisterMember(Library library, Member member) { }
+    public void RegisterMember(Library library, Member member)
+    {
+        library.RegisterMember(member);
+    }
 }
